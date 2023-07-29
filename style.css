@@ -1,0 +1,38 @@
+@font-face {
+    font-family: digitalDisplay;
+    src: url("../font/digital-display-font/DigitalDisplayRegular-ODEO.ttf");
+}
+
+@font-face {
+    font-family: digital7;
+    src: url("../font/digital_7/digital-7.ttf");
+}
+
+@font-face {
+    font-family: digitalDisco;
+    src: url("../font/digital_disco/DigitalDisco.ttf");
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    user-select: none;
+    font-family: digital7;
+    color: #008000;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#counter{
+    font-size: 70pt;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
